@@ -1,0 +1,58 @@
+.pro-container .pro-title{
+    margin: 50px 0;
+}
+
+.pro-container .box-one{
+    width: 100%;
+    height: 500px;
+    background-image: url("img1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.pro-container .overlay{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.pro-container .content-box{
+    position: relative;
+    bottom: 40%;
+    color: #fff;
+    padding: 20px;
+}
+.pro-container .content-box button{
+    background: none;
+    border: none;
+    border: 2px solid rgb(11, 238, 57);
+    border-radius: 5px;
+    color: #fff;
+    padding: 2px 10px;
+    margin: 5px 0;
+}
+.pro-container .content-box p{
+    cursor: pointer;
+}
+
+.pro-container .box-two{
+    width: 100%;
+    height: 500px;
+    background-image: url("img2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.pro-container .box-three{
+    width: 100%;
+    height: 500px;
+    background-image: url("img3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

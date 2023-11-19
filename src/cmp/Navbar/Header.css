@@ -1,0 +1,25 @@
+.navbar-brand{
+    font-size: 40px;
+    font-weight: bold;
+    color:black;
+}
+span{
+    color: rgb(11, 238, 57);
+}
+.nav-cover{
+    gap: 30px;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+@media(max-width:576px){
+    .navbar-brand{
+        font-size: 30px;
+    }
+    .nav-cover{
+        gap: 0px;
+    }
+}

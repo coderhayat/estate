@@ -1,0 +1,56 @@
+.about{
+    padding-top: 120px;
+    margin-bottom: 30px;
+}
+
+.about-team{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.about-team .title{
+    margin-bottom: 30px;
+}
+.about-team .about-team-one{
+    position: relative;
+}
+.about-team .about-team-one:hover img{
+    opacity: 0.3;
+    transition: 0.5s;
+}
+.about-team .about-team-one .middle{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.about-team .about-team-one:hover .middle{
+    width: 100%;
+    opacity: 1;
+}
+.about-team .about-team-one .text{
+    width: 70%;
+    color: black;
+    padding: 30px;
+    
+}
+
+.about-team .about-team-one .icon-box i{
+    margin: 0 10px;
+    cursor: pointer;
+    
+}
+
+@media(max-width:576px){
+    .about .para{
+        margin-top: 30px;
+    }
+}
+@media(min-width:768px) and (max-width:992px){
+    .about-team .about-team-one .text{
+        width: 100%;
+    }
+    .about-team .about-team-one .text .mb-5{
+        margin-bottom: 10px !important;
+    }
+}
